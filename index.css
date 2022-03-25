@@ -1,0 +1,165 @@
+* {
+  text-decoration: none;
+  margin: 0 auto;
+}
+
+nav {
+  background: rgb(3, 18, 68);
+  height: 80px;
+  width: 100%;
+}
+
+label.logo {
+  position: relative;
+  color: white;
+  font-size: 3vw;
+  line-height: 80px;
+  padding: 0 70px;
+  font-weight: bold;
+}
+
+nav ul {
+  float: right;
+  margin-right: 25px;
+}
+
+nav ul li {
+  display: inline-block;
+  line-height: 48px;
+  margin-top: 16px;
+}
+
+nav ul li a {
+  color: white;
+  font-size: 1.5vw;
+  padding: 29px 13px;
+}
+
+a.active,
+a:hover {
+  background: #1c74b8;
+  transition: 0.5s;
+}
+
+.b1 {
+  position: relative;
+  display: grid;
+  gap: 70px;
+  grid-template-columns: 1fr 1fr;
+  background-color: #c3def7;
+  width: 100%;
+  height: 500px;
+  margin: 0 auto;
+  text-align: center;
+}
+
+.b2 {
+  background-color: #9cc4a2;
+  width: 100%;
+  height: 500px;
+}
+
+.profile {
+  position: relative;
+  top: 80px;
+  left: 40px;
+}
+
+.profile img {
+  border: 2.5px solid black;
+  height: 350px;
+  margin-right: 160px;
+  box-shadow: 7px 7px 15px black;
+}
+
+.profTxt {
+  position: relative;
+  font-size: 40px;
+  font-weight: bold;
+  left: -150px;
+}
+
+.profTxt p {
+  font-family: Georgia, "Times New Roman", Times, "Lucida Sans",
+    "Lucida Sans Regular", "Lucida Grande", "Lucida Sans Unicode", Geneva,
+    Verdana, sans-serif;
+  position: relative;
+  font-size: 2.9vw;
+  top: 150px;
+  text-align: left;
+}
+
+.intro {
+  position: relative;
+  font-family: "Times New Roman", Times, "Gill Sans", "Gill Sans MT", Calibri,
+    "Trebuchet MS", sans-serif;
+  font-size: 2vw;
+  top: 170px;
+  text-align: left;
+}
+
+.b2 p {
+  position: relative;
+  text-decoration: underline;
+  padding: 50px;
+  font-size: 3vw;
+  font-family: Cambria, Cochin, Georgia, Times, "Times New Roman", serif;
+}
+
+.desMDEV {
+  max-width: 70%;
+  /* margin: auto; */
+  font-size: 2.5vw;
+  margin-top: 50px;
+  margin-bottom: 0px;
+  align-items: center;
+  justify-content: center;
+  /* font-size: 3vw;
+  text-align: justify;
+  text-align-last: justify;
+  left: 20px; */
+}
+
+q {
+  font-size: 2vw;
+}
+
+.footer {
+  position: relative;
+  left: 0;
+  bottom: 0;
+  width: 100%;
+  margin-bottom: 0;
+  background-color: rgb(3, 18, 68);
+  color: white;
+  text-align: center;
+  height: 100px;
+}
+
+.contact {
+  /* margin-top: 15px; */
+  font-size: 2.5vw;
+}
+
+.fa {
+  background: #46455e;
+  color: white;
+  width: 10px;
+  height: 7px;
+  border-radius: 50%;
+  text-align: center;
+  line-height: 10px;
+  vertical-align: middle;
+  padding: 8px;
+  padding-bottom: 15px;
+  padding-right: 11px;
+  margin: 7px 1px;
+}
+.fa-envelope {
+  padding-bottom: 16px;
+  padding-right: 14px;
+}
+
+.fa:hover {
+  opacity: 0.9;
+}

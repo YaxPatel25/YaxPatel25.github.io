@@ -1,0 +1,119 @@
+* {
+  text-decoration: none;
+  margin: 0 auto;
+}
+
+nav {
+  background: rgb(3, 18, 68);
+  height: 80px;
+  width: 100%;
+}
+
+label.logo {
+  position: relative;
+  color: white;
+  font-size: 3vw;
+  line-height: 80px;
+  padding: 0 70px;
+  font-weight: bold;
+}
+
+nav ul {
+  float: right;
+  margin-right: 25px;
+}
+
+nav ul li {
+  display: inline-block;
+  line-height: 48px;
+  margin-top: 16px;
+}
+
+nav ul li a {
+  color: white;
+  font-size: 1.5vw;
+  padding: 29px 13px;
+}
+
+.gitandroidcal a:hover,
+a.active,
+a:hover {
+  background: #1c74b8;
+  transition: 0.5s;
+}
+
+.projectheader {
+  width: fit-content;
+  text-align: center;
+  margin-top: 20px;
+  font-size: 70px;
+  border-bottom: 5px solid black;
+}
+
+.box {
+  border: 4px solid black;
+  width: 400px;
+  height: 70px;
+  margin-top: 50px;
+}
+
+.box img {
+  height: 70px;
+  float: left;
+}
+
+.v1 {
+  border-left: 3px solid rgb(0, 0, 0);
+  height: 70px;
+  position: relative;
+  left: 20%;
+  /* margin-left: -3px; */
+  /* top: 0; */
+}
+
+.box p {
+  font-size: 50px;
+  margin-left: 90px;
+  margin-top: 6px;
+}
+
+.footer {
+  position: relative;
+  left: 0;
+  bottom: 0;
+  width: 100%;
+  margin-top: 40px;
+  background-color: rgb(3, 18, 68);
+  color: white;
+  text-align: center;
+  height: 100px;
+}
+
+.contact {
+  /* margin-top: 15px; */
+  font-size: 2.5vw;
+}
+
+.fa {
+  background: #46455e;
+  color: white;
+  width: 10px;
+  height: 7px;
+  border-radius: 50%;
+  text-align: center;
+  line-height: 10px;
+  vertical-align: middle;
+  padding: 8px;
+  padding-bottom: 15px;
+  padding-right: 11px;
+  margin: 7px 1px;
+}
+
+.fa-envelope {
+  padding-bottom: 16px;
+  padding-right: 14px;
+}
+
+.fa:hover {
+  opacity: 0.9;
+}

@@ -1,0 +1,164 @@
+* {
+  text-decoration: none;
+  margin: 0 auto;
+}
+
+nav {
+  background: rgb(3, 18, 68);
+  height: 80px;
+  width: 100%;
+}
+
+label.logo {
+  position: relative;
+  color: white;
+  font-size: 3vw;
+  line-height: 80px;
+  padding: 0 70px;
+  font-weight: bold;
+}
+
+nav ul {
+  float: right;
+  margin-right: 25px;
+}
+
+nav ul li {
+  display: inline-block;
+  line-height: 48px;
+  margin-top: 16px;
+}
+
+nav ul li a {
+  color: white;
+  font-size: 1.5vw;
+  padding: 29px 13px;
+}
+
+.gitandroidcal a:hover,
+a.active,
+a:hover {
+  background: #1c74b8;
+  transition: 0.5s;
+}
+
+.projectheader {
+  width: fit-content;
+  text-align: center;
+  margin-top: 20px;
+  font-size: 70px;
+  border-bottom: 5px solid black;
+}
+
+.b1 {
+  position: relative;
+  /* background-color: rgb(144, 51, 156); */
+  width: 100%;
+}
+
+.box {
+  position: relative;
+  background-color: rgb(214, 252, 225);
+  width: 85%;
+  height: 1850px;
+  /* align-items: center; */
+  margin-top: 30px;
+  border-left: 5px solid rgb(18, 182, 67);
+}
+
+.projectdes {
+  margin-top: 15px;
+  margin-left: 20px;
+  font-size: 22px;
+}
+
+.nextdes {
+  margin-top: 10px;
+  margin-left: 132px;
+  font-size: 22px;
+}
+
+.androidimg {
+  display: flex;
+  margin: 20px 0px 5px 0px;
+  border-radius: 11px;
+}
+
+.line {
+  width: 95%;
+  height: 17px;
+  margin-left: 20px;
+  border-bottom: 3px solid black;
+  position: relative;
+}
+
+.colortags {
+  display: inline;
+  position: relative;
+  margin-left: 20px;
+  width: 95px;
+  height: 100px;
+  padding: 30px;
+  font-size: 30px;
+}
+
+h1 {
+  font-size: 70px;
+  margin-bottom: 40px;
+}
+
+.gitandroidcal a {
+  background-color: #8c97fb;
+  width: fit-content;
+  position: relative;
+  border-radius: 7px;
+  padding: 1px 3px;
+  align-items: center;
+  justify-content: center;
+}
+
+.box h1 {
+  padding-top: 10px;
+  padding-left: 10px;
+}
+
+.footer {
+  position: relative;
+  left: 0;
+  bottom: 0;
+  width: 100%;
+  margin-top: 10px;
+  background-color: rgb(3, 18, 68);
+  color: white;
+  text-align: center;
+  height: 100px;
+}
+
+.contact {
+  /* margin-top: 15px; */
+  font-size: 2.5vw;
+}
+
+.fa {
+  background: #46455e;
+  color: white;
+  width: 10px;
+  height: 7px;
+  border-radius: 50%;
+  text-align: center;
+  line-height: 10px;
+  vertical-align: middle;
+  padding: 8px;
+  padding-bottom: 15px;
+  padding-right: 11px;
+  margin: 7px 1px;
+}
+
+.fa-envelope {
+  padding-bottom: 16px;
+  padding-right: 14px;
+}
+
+.fa:hover {
+  opacity: 0.9;
+}

@@ -1,0 +1,168 @@
+* {
+  text-decoration: none;
+  margin: 0 auto;
+}
+
+nav {
+  background: rgb(3, 18, 68);
+  height: 80px;
+  width: 100%;
+}
+
+label.logo {
+  position: relative;
+  color: white;
+  font-size: 3vw;
+  line-height: 80px;
+  padding: 0 70px;
+  font-weight: bold;
+}
+
+nav ul {
+  float: right;
+  margin-right: 25px;
+}
+
+nav ul li {
+  display: inline-block;
+  line-height: 48px;
+  margin-top: 16px;
+}
+
+nav ul li a {
+  color: white;
+  font-size: 1.5vw;
+  padding: 29px 13px;
+}
+
+a.active,
+a:hover {
+  background: #1c74b8;
+  transition: 0.5s;
+}
+
+.b1 {
+  width: 100%;
+  height: 500px;
+}
+
+.b1 img {
+  /* position: relative; */
+  height: 600px;
+  width: 100%;
+}
+
+.education {
+  background-color: white;
+  width: 70%;
+  height: 60%;
+  position: absolute;
+  border: 3px solid;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -42%);
+}
+
+.hometown {
+  background-color: white;
+  width: 70%;
+  height: 60%;
+  position: relative;
+  border: 3px solid;
+  top: 50%;
+  left: 50%;
+  transform: translate(-70%, -245%);
+}
+
+table {
+  border: 1px solid black;
+  border-collapse: collapse;
+  position: relative;
+  height: 100%;
+  width: 100%;
+}
+
+.tabledu {
+  text-align: center;
+  font-size: 25px;
+  width: 30%;
+  background-color: rgb(51, 51, 98);
+  color: white;
+}
+
+.edudes {
+  position: absolute;
+  text-align: left;
+  vertical-align: top;
+  padding-left: 30px;
+}
+
+.tablehome {
+  text-align: center;
+  font-size: 25px;
+  width: 30%;
+  background-color: rgb(51, 51, 98);
+  color: white;
+}
+
+.homedes {
+  position: absolute;
+  text-align: left;
+  vertical-align: top;
+  padding-left: 30px;
+}
+
+.line {
+  width: 90%;
+  height: 47px;
+  border-bottom: 1px solid black;
+  position: relative;
+}
+
+.line1 {
+  width: 90%;
+  height: 20px;
+  border-bottom: 1px solid black;
+  position: relative;
+}
+
+.footer {
+  position: relative;
+  left: 0;
+  bottom: 0;
+  width: 100%;
+  margin-top: 10px;
+  background-color: rgb(3, 18, 68);
+  color: white;
+  text-align: center;
+  height: 100px;
+}
+
+.contact {
+  margin-top: 15px;
+  font-size: 2.5vw;
+}
+
+.fa {
+  background: #46455e;
+  color: white;
+  width: 10px;
+  height: 7px;
+  border-radius: 50%;
+  text-align: center;
+  line-height: 10px;
+  vertical-align: middle;
+  padding: 8px;
+  padding-bottom: 15px;
+  padding-right: 11px;
+  margin: 7px 1px;
+}
+
+.fa-envelope {
+  padding-bottom: 16px;
+  padding-right: 14px;
+}
+
+.fa:hover {
+  opacity: 0.9;
+}
